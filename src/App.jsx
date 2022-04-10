@@ -37,7 +37,7 @@ function App() {
           {tables}
         </div>
 
-        <Footer date="Thursday 24 March 2022" name="michaelhe.co.nz" url="https://www.michaelhe.co.nz" />
+        <Footer date="Monday 11 April 2022" name="michaelhe.co.nz" url="https://www.michaelhe.co.nz" />
 
       </div>
     </main>
