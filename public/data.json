@@ -1,5 +1,5 @@
 {
-    "nextId": 13,
+    "nextId": 26,
     "internships": [
         {
             "id": 0,
@@ -53,7 +53,123 @@
             "title": "Product Design Intern",
             "date": "2022/2023",
             "url": "https://www.atlassian.com/company/careers/detail/3ff1260d-20c3-401d-a1f3-765519e4a6f6?trid=1e0b9127-2df6-4b3d-8bc4-d81ae332a601&fbclid=IwAR2hQ1NhDfdxIUhm9FtCFIoT1saCCPGE2aZj5cNe-JnvIamve9C7tTCw8lw",
-            "icon": "https://wac-cdn.atlassian.com/dam/jcr:b5e4a5a5-94b9-4098-ad1f-af4ba39b401f/corporate-deck@2x_V2.png?cdnVersion=309"
+            "icon": "https://wac-cdn.atlassian.com/dam/jcr:b5e4a5a5-94b9-4098-ad1f-af4ba39b401f/corporate-deck@2x_V2.png?cdnVersion=309",
+            "location": "Sydney"
+        },
+        {
+            "id": 13,
+            "type": "engineering",
+            "company": "Amazon",
+            "title": "Software Dev Engineer Intern",
+            "date": "2022/2023",
+            "url": "https://www.amazon.jobs/en/jobs/1969578/2022-23-software-dev-engineer-intern?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid&fbclid=IwAR02koJ0AoH6YtWcv3GZM2PGpATMSP-IxTaQ9vrQKMpoDALbgt6kah_lmyk",
+            "icon": "https://i.pinimg.com/originals/01/ca/da/01cada77a0a7d326d85b7969fe26a728.jpg",
+            "location": "Sydney"
+        },
+        {
+            "id": 14,
+            "type": "engineering",
+            "company": "AMD",
+            "title": "Silicon Engineering Intern",
+            "url": "https://jobs.amd.com/job/Sydney-Silicon-Engineering-Intern-New/856866400/?fbclid=IwAR0SL_Zwf3J4KecbPGcEtAZ3oDNh4mCyAOHLs-QwVhHvjIWIif-VMY2zfTs",
+            "icon": "https://i.etsystatic.com/23511185/r/il/7112ac/2408810313/il_fullxfull.2408810313_kqb8.jpg",
+            "location": "Sydney"
+        },
+        {
+            "id": 15,
+            "type": "engineering",
+            "company": "Cisco",
+            "title": "Site Reliability Engineer Intern",
+            "url": "https://jobs.cisco.com/jobs/ProjectDetail/Site-Reliability-Engineer-Intern-Australia/1363644?source=LinkedIn&fbclid=IwAR1huxJXdzNGlOebktsTbFP8x4lQRc4sEw4fhMTjd3laZ1M4TTcW7yXYcK8",
+            "location": "Sydney"
+        },
+        {
+            "id": 16,
+            "type": "engineering",
+            "company": "Google",
+            "title": "STEP Intern",
+            "date": "2022",
+            "url": "",
+            "deadline": "April 8 2022",
+            "location": "Sydney"
+        },
+        {
+            "id": 17,
+            "type": "engineering",
+            "company": "GHD",
+            "title": "Digital Consulting Summer Internship",
+            "date": "2022",
+            "url": "https://ejov.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3817?utm_medium=jobboard&utm_source=linkedin&fbclid=IwAR1qR24-a4d2fvO4sS7uPvj4JUFZhRbgYkl9nKyYxLUUWuXWhqhsARDsXjY",
+            "location": "Sydney"
+        },
+        {
+            "id": 18,
+            "type": "engineering",
+            "company": "Tesla",
+            "title": "Power System Modelling Intern",
+            "url": "https://www.tesla.com/careers/search/job/megapack-power-systems-modelling-intern-114945?source=LinkedIn&fbclid=IwAR1bH0m-Nd0la2_TViANDu3PSDXOVnDcFKCds_fliDMak3keJu3Lamuhcd0",
+            "location": "Melbourne"
+        },
+        {
+            "id": 19,
+            "type": "engineering",
+            "company": "Google",
+            "title": "Student Research Intern",
+            "date": "2022",
+            "url": "https://careers.google.com/jobs/results/91468247414514374-student-researcher-intern-2022/?fbclid=IwAR1RIJXvLwJbyfIHcWFVQCd2s2NnhntlJ8q0JtFkQi3W1PpTz6_JBujziro&src=Online%2FLinkedIn%2Flinkedin_us&utm_campaign=contract&utm_medium=jobposting&utm_source=linkedin",
+            "location": "Sydney"
+        },
+        {
+            "id": 20,
+            "type": "engineering",
+            "company": "GHD",
+            "title": "Engineering Intern - Water Systems Process",
+            "deadline": "April 11 2022",
+            "url": "https://ejov.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/4078?utm_medium=jobboard&utm_source=linkedin&fbclid=IwAR2P48YodPqET7lfDLYnGky_XxYOW4EXmXElxVZR8_b7PT_D7bwqsyP1q4w",
+            "location": "Brisbane"
+        },
+        {
+            "id": 21,
+            "type": "engineering",
+            "company": "Airwallex",
+            "title": "Software Engineer Intern",
+            "date": "2022",
+            "url": "https://jobs.lever.co/airwallex/98f20acd-3ca7-451a-a065-365f087a57ed?lever-source=LinkedInJobs&fbclid=IwAR2YR7aWUZoNXV-g1bgVkCdP4gwMJ9jPtDPI3WtdewzG4mK0AOYyjAN8HW4",
+            "location": "Victoria"
+        },
+        {
+            "id": 22,
+            "type": "engineering",
+            "company": "Raytheon Technologies",
+            "title": "Engineering Intern",
+            "url": "https://careers.rtx.com/global/en/job/01503042/Engineering-Intern?fbclid=IwAR0SLRNZG1beTZilm-SoNXQpNFu4kwz0p7P88W1cEOwCB4Z7k5pCRhhyUxI",
+            "location": "Macquarie Park"
+        },
+        {
+            "id": 23,
+            "type": "engineering",
+            "company": "Canva",
+            "title": "Software Engineering Intern - Infrastructure Engineering",
+            "url": "",
+            "location": "Sydney"
+        },
+        {
+            "id": 24,
+            "type": "engineering",
+            "company": "Optiver",
+            "title": "Software Developer Internship",
+            "url": "https://www.optiver.com/working-at-optiver/career-opportunities/5912217002/?fbclid=IwAR1Wyh4YDu4sJ6pFtQ-IawAgxg3vuFcbOK0aAyrLfqiONJKZ_zvoKq6woX4",
+            "date": "2022-23",
+            "location": "Australia"
+        },
+        {
+            "id": 25,
+            "type": "engineering",
+            "company": "Optiver",
+            "title": "FPGA Developer Internship",
+            "url": "https://www.optiver.com/working-at-optiver/career-opportunities/5912220002/?fbclid=IwAR24YHHMsMKvEgZhETlSmWgOOehhc8rUOr_X-8I5diBVLWoLd_E2V6NT4ho",
+            "date": "2022-23",
+            "location": "Australia"
         }
     ],
     "opportunities": [

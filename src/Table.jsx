@@ -40,7 +40,13 @@ function TableEntry({ row }) {
           <h6 className="mb-0">{row.company}</h6>
           <p className="mb-0 opacity-75">{row.title}</p>
         </div>
-        <small className="opacity-50 text-nowrap">{row.date}</small>
+        <small className="opacity-50 text-nowrap" style={{ textAlign: 'right' }}>
+          {row.date}
+          <br />
+          {row.location}
+          <br />
+          {row.deadline}
+        </small>
       </div>
     </a>
   );
