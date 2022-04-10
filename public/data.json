@@ -1,8 +1,9 @@
 {
-    "nextId": 12,
+    "nextId": 13,
     "internships": [
         {
             "id": 0,
+            "type": "commerce",
             "company": "Google",
             "title": "Business Intern",
             "date": "2022",
@@ -11,6 +12,7 @@
         },
         {
             "id": 1,
+            "type": "commerce",
             "company": "Bloomberg",
             "title": "Analytics & Sales Summer Intern",
             "date": "2023",
@@ -19,6 +21,7 @@
         },
         {
             "id": 2,
+            "type": "commerce",
             "company": "Bank of America",
             "title": "APAC Summer Analyst",
             "date": "2023",
@@ -27,6 +30,7 @@
         },
         {
             "id": 3,
+            "type": "commerce",
             "company": "Optiver",
             "title": "Market Risk Analyst",
             "date": "2022-2023",
@@ -35,52 +39,69 @@
         },
         {
             "id": 4,
+            "type": "commerce",
             "company": "Deloitte",
             "title": "Graduate Program",
             "date": "Position filled",
             "url": "https://jobs.deloitte.com.au/job/Sydney-Internal-Services-Marketing-2023-Graduate-Program-%28National%29-NSW/772129610/?utm_source=LINKEDIN&utm_medium=referrer",
             "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/DeloitteNewSmall.png/220px-DeloitteNewSmall.png"
+        },
+        {
+            "id": 12,
+            "type": "engineering",
+            "company": "Atlassian",
+            "title": "Product Design Intern",
+            "date": "2022/2023",
+            "url": "https://www.atlassian.com/company/careers/detail/3ff1260d-20c3-401d-a1f3-765519e4a6f6?trid=1e0b9127-2df6-4b3d-8bc4-d81ae332a601&fbclid=IwAR2hQ1NhDfdxIUhm9FtCFIoT1saCCPGE2aZj5cNe-JnvIamve9C7tTCw8lw",
+            "icon": "https://wac-cdn.atlassian.com/dam/jcr:b5e4a5a5-94b9-4098-ad1f-af4ba39b401f/corporate-deck@2x_V2.png?cdnVersion=309"
         }
     ],
     "opportunities": [
         {
             "id": 5,
+            "type": "commerce",
             "company": "BP",
             "title": "Graduate 2023: Digital Program Information Session (Mar 21)",
             "url": "https://unsw-csm.symplicity.com/students/?s=event&ss=is&mode=form&id=5484da2250fea22fe9ce23b4ebfd230a"
         },
         {
             "id": 6,
+            "type": "commerce",
             "company": "Macquarie",
             "title": "2023 Graduate Opportunities Evening (Virtual) (Mar 22)",
             "url": "https://unsw-csm.symplicity.com/students/?s=event&ss=is&mode=form&id=70fc53b930bca1464e655727e37f0a7b"
         },
         {
             "id": 7,
+            "type": "commerce",
             "company": "Amazon",
             "title": "Event: Your Career Pathway (Tech) with Amazon (Mar 22)",
             "url": "https://unsw-csm.symplicity.com/students/?s=event&ss=is&mode=form&id=70fc53b930bca1464e655727e37f0a7b"
         },
         {
             "id": 8,
+            "type": "commerce",
             "company": "Global Enterprise Experience",
             "title": "(Apr 13)",
             "url": "https://www.geebiz.org/index.php/enrol"
         },
         {
             "id": 9,
+            "type": "commerce",
             "company": "Microsoft Learn",
             "title": "Student Ambassadors (Rolling basis)",
             "url": "https://studentambassadors.microsoft.com/en-US/apply"
         },
         {
             "id": 10,
+            "type": "commerce",
             "company": "Google",
             "title": "Fundamentals of Digital Marketing (LinkedIn certification)",
             "url": "https://learndigital.withgoogle.com/digitalgarage-au/course/digital-marketing"
         },
         {
             "id": 11,
+            "type": "commerce",
             "company": "AFL",
             "title": "Development Officer",
             "url": "https://unsw-csm.symplicity.com/students/app/jobs/detail/e4eef24c2d41d67cc05c56bd3e1836d1"

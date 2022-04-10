@@ -6,6 +6,7 @@ import './App.css';
 
 function App() {
   const [data, setData] = useState({});
+  const [selected, setSelected] = useState('all');
 
   useEffect(() => {
     const url = 'data.json';
@@ -15,13 +16,13 @@ function App() {
       .then((result) => {
         setData(result);
       });
-  });
+  }, []);
 
   const tables = Object.entries(data).map(([key, value]) => {
     if (key === 'nextId') {
       return null;
     }
-    return <Table name={key} data={value} key={key} />;
+    return <Table name={key} data={value} key={key} selected={selected} />;
   });
 
   return (
@@ -29,6 +30,8 @@ function App() {
       <div className="container py-4">
 
         <Header title="Devcom" img="https://www.warranedev.com/warraneLogo.png" alt="Warrane logo" />
+
+        <Selector selected={selected} setSelected={setSelected} />
 
         <div className="row align-items-md-stretch">
           {tables}
@@ -38,6 +41,29 @@ function App() {
 
       </div>
     </main>
+  );
+}
+
+function Selector({ selected, setSelected }) {
+  return (
+    <div className="btn-group" role="group" aria-label="Basic radio toggle button group">
+      <SelectorItem group="selector" name="all" selected={selected} setSelected={setSelected} />
+      <SelectorItem group="selector" name="commerce" selected={selected} setSelected={setSelected} />
+      <SelectorItem group="selector" name="engineering" selected={selected} setSelected={setSelected} />
+    </div>
+  );
+}
+
+function SelectorItem(
+  {
+    name, group, selected, setSelected,
+  },
+) {
+  return (
+    <>
+      <input type="radio" className="btn-check" name={group} id={name} autoComplete="off" checked={selected === name} onChange={() => setSelected(name)} />
+      <label className="btn btn-outline-primary" htmlFor={name}>{name.charAt(0).toUpperCase() + name.slice(1)}</label>
+    </>
   );
 }
 

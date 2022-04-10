@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Table({ name, data }) {
+function Table({ name, data, selected }) {
   return (
     <div className="col-md-6">
       <div className="h-100 p-5 rounded-3">
         <h2>{name.charAt(0).toUpperCase() + name.slice(1)}</h2>
         <div className="list-group">
-          <TableBody data={data} />
+          <TableBody data={data} selected={selected} />
         </div>
       </div>
     </div>
@@ -56,8 +56,8 @@ TableEntry.propTypes = {
   }).isRequired,
 };
 
-function TableBody({ data }) {
-  const rows = data.map((row) => <TableEntry key={row.id} row={row} />);
+function TableBody({ data, selected }) {
+  const rows = data.filter((row) => row.type === selected || selected === 'all' || row.type === 'all').map((row) => <TableEntry key={row.id} row={row} />);
 
   return rows;
 }
